@@ -5,21 +5,18 @@ github.com/bugsnag/bugsnag-go/v2/device
 github.com/bugsnag/bugsnag-go/v2/errors
 github.com/bugsnag/bugsnag-go/v2/headers
 github.com/bugsnag/bugsnag-go/v2/sessions
-# github.com/bugsnag/panic-monitor v1.0.1
-## explicit
 # github.com/bugsnag/panicwrap v1.3.4
 ## explicit
 github.com/bugsnag/panicwrap
-# github.com/bugsnag/proc-launcher v1.0.0
-## explicit; go 1.15
 # github.com/gofrs/uuid v4.0.0+incompatible
 ## explicit
 github.com/gofrs/uuid
+# github.com/jcmturner/dnsutils/v2 v2.0.0
+## explicit; go 1.13
+github.com/jcmturner/dnsutils/v2
 # github.com/kardianos/osext v0.0.0-20190222173326-2bc1f35cddc0
 ## explicit
 github.com/kardianos/osext
-# github.com/miekg/dns v1.1.24
-## explicit
 # github.com/pkg/errors v0.9.1
 ## explicit
 github.com/pkg/errors

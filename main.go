@@ -4,8 +4,10 @@ package main
 import "C"
 
 import (
-	"github.com/bugsnag/bugsnag-go/v2"
 	"time"
+
+	"github.com/bugsnag/bugsnag-go/v2"
+	"github.com/jcmturner/dnsutils/v2"
 )
 
 func main() {
@@ -23,4 +25,6 @@ func main() {
 	C.Fault()
 
 	time.Sleep(2 * time.Second)
+
+	dnsutils.OrderedSRV("", "", "")
 }
