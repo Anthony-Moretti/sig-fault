@@ -3,6 +3,7 @@ module test_error
 go 1.17
 
 require (
+        github.com/miekg/dns v1.1.24 // indirect
 	github.com/bugsnag/bugsnag-go/v2 v2.1.2 // indirect
 	github.com/bugsnag/panic-monitor v1.0.1 // indirect
 	github.com/bugsnag/panicwrap v1.3.4 // indirect
