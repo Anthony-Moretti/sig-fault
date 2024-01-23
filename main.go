@@ -12,6 +12,8 @@ import (
 
 func main() {
 
+	// just updating to create a change
+
 	// Configure bugsnag to send to our "Test Go" project locally
 	bugsnag.Configure(bugsnag.Configuration{
 		APIKey:          "ea455bb65bcb31772a8ace38e9fdd999", // other
